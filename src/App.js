@@ -5,6 +5,7 @@ import About from "./components/about";
 import Skills from "./components/skills";
 import Table from "./components/table";
 import Education from "./components/education";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <br></br>
       <Table />
+      <Projects />
     </div>
   );
 }
